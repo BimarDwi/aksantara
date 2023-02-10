@@ -9,5 +9,4 @@ def decode_qr_code(image):
     else:
         print("QR Code not detected")
 
-# Example usage
 decode_qr_code("qrcode.png")
