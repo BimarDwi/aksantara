@@ -1,0 +1,6 @@
+- import cv2 berguna supaya kita dapat meengakses modul opencv
+- cv2.imread berguna untuk me-load gambar yang kita mau lalu me-returnnya ke variabel img
+- cv2.cvtColor berguna untuk mengubah colo space pada gambar ke color space lain
+- cv2.COLOR_BGR2GRAY adalah salah satu parameter dari cv.2cvtColor yang berguna untuk memberi tahu opencv color space apa yang kita inginkan
+- cv2.QRCodeDetector().detectAndDecode() berguna untuk mendeteksi dan mendecode qr code dengan parameter berupa grayscale image
+  dan me-return pada index pertama adalah hasil dari decode-an nya
